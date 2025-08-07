@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="z2NSwV0grpSmF13njUic">
+    <mxGraphModel dx="918" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-3" value="cabs datos sobre los taxis" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-3">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-5" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-4">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-6" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-4">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-3">
+          <mxGeometry y="60" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-8" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-7">
+          <mxGeometry width="30" height="100" as="geometry">
+            <mxRectangle width="30" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-9" value="cab_id: código del vehículo&#xa;&#xa;vehicle_id: ID técnico del vehículo&#xa;&#xa;company_name: &#xa;la empresa propietaria del vehículo" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;textShadow=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-7">
+          <mxGeometry x="30" width="220" height="100" as="geometry">
+            <mxRectangle width="220" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-23" value="neighborhoods" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="250" height="130.0000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-23">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-24">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-24">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-23">
+          <mxGeometry y="60" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-27">
+          <mxGeometry width="30" height="70" as="geometry">
+            <mxRectangle width="30" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-29" value="name: nombre del barrio&#xa;neighborhood_id: código del barrio" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-27">
+          <mxGeometry x="30" width="220" height="70" as="geometry">
+            <mxRectangle width="220" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-30" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-31" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-32" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-13" value="trips: datos sobre los viajes" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="460" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-13">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-14">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-14">
+          <mxGeometry x="30" width="430" height="30" as="geometry">
+            <mxRectangle width="430" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-13">
+          <mxGeometry y="60" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-17">
+          <mxGeometry width="30" height="220" as="geometry">
+            <mxRectangle width="30" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-19" value="trip_id: código del viaje&#xa;&#xa;cab_id: código del vehículo que opera el viaje&#xa;&#xa;&#xa;start_ts: fecha y hora del inicio del viaje (tiempo redondeado a la hora)&#xa;&#xa;&#xa;end_ts: fecha y hora de finalización del viaje (tiempo redondeado a la hora)&#xa;&#xa;&#xa;duration_seconds: duración del viaje en segundos&#xa;&#xa;&#xa;distance_miles: distancia del viaje en millas&#xa;&#xa;&#xa;pickup_location_id: código del barrio de recogida&#xa;&#xa;&#xa;dropoff_location_id: código del barrio de finalización" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-17">
+          <mxGeometry x="30" width="430" height="220" as="geometry">
+            <mxRectangle width="430" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-34" value="weather_records: datos sobre el clima" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-34">
+          <mxGeometry y="30" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-36" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-35">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-37" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-35">
+          <mxGeometry x="30" width="630" height="30" as="geometry">
+            <mxRectangle width="630" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-34">
+          <mxGeometry y="60" width="660" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-39" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-38">
+          <mxGeometry width="30" height="120" as="geometry">
+            <mxRectangle width="30" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwv3EaKAz-d_QG9AXL02-40" value="record_id: código del registro meteorológicots: fecha y hora del registro (tiempo redondeado a la hora)&#xa;&#xa;temperature: temperatura cuando se tomó el registro&#xa;&#xa;&#xa;description: breve descripción de las condiciones meteorológicas, por ejemplo, &quot;lluvia ligera&quot; o &quot;nubes dispersas&quot;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;textShadow=1;" vertex="1" parent="Pwv3EaKAz-d_QG9AXL02-38">
+          <mxGeometry x="30" width="630" height="120" as="geometry">
+            <mxRectangle width="630" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
